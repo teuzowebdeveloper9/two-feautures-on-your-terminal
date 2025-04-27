@@ -2,6 +2,7 @@
   "name": "qrcode",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "go": "node src/index.js"
   },

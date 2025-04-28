@@ -1,11 +1,10 @@
 import prompt from "prompt";
-
 import {promptConfig} from "./prompts/prompt-main.js";
-
 import {promptQrcodeConfig} from "./prompts/prompt-qr-code.js";
-
 import chalk from "chalk";
 import { handle } from "./utils/qrcode/handle.js";
+import { createPassword } from "./utils/create-password/create.js";
+
 
 prompt.start();
 
@@ -21,5 +20,6 @@ prompt.get(promptConfig, (err, choose) => {
     });
   } else {
     console.log(chalk.greenBright("You have chosen password generator"));
+    createPassword();
   }
 });  

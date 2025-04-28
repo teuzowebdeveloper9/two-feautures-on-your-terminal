@@ -10,10 +10,8 @@ Este repositório faz exatamente o que o nome sugere: traz **duas funcionalidade
 - Perfeito para compartilhar links rapidamente ou testar QR codes sem sair do terminal.
 
 ### 2. Gerador de Senhas
-- Crie senhas seguras e personalizadas.
-- Você pode escolher se quer letras maiúsculas, minúsculas, números e caracteres especiais.
-- Ideal para quem precisa de uma senha forte na hora!
-
+- Crie senhas seguras
+  
 ## Como rodar
 
 Clone o repositório:
